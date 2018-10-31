@@ -22,9 +22,7 @@ const int size = mapwidth * mapheight;
 int map[size];
 
 // Snake head details
-int headxpos;
-int headypos;
-int direction;
+int headxpos, headypos, direction;
 
 // Amount of food the snake has (How long the body is)
 int food = 3;
